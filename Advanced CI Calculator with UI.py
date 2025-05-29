@@ -480,7 +480,7 @@ inflation_frame.grid(row=0, column=1, padx=5, pady=5, sticky='ew')
 ttk.Label(inflation_frame, text="Inflation Rate (%):").grid(row=0, column=0, padx=5, pady=2, sticky='w')
 inflation_rate_entry = ttk.Entry(inflation_frame)
 inflation_rate_entry.grid(row=0, column=1, padx=5, pady=2, sticky='ew')
-inflation_rate_entry.insert(0, "2")  # Default 2% inflation
+inflation_rate_entry.insert(0, "2.3")  # Default 2.3% inflation
 
 inflation_type_var = tk.StringVar(value="annual")  # Default to annual
 radio_annual = ttk.Radiobutton(inflation_frame, text="Annual Inflation Rate", variable=inflation_type_var,
